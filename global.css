@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-nunito: Nunito;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-19xl: 38px;
+
+  /* Colors */
+  --color-silver: #bcbec0;
+  --color-white: #fff;
+  --color-slateblue: #003eb8;
+  --color-deepskyblue-100: #00abff;
+  --color-gray: rgba(255, 255, 255, 0.1);
+  --color-dimgray: #535353;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-21xl: 40px;
+}
