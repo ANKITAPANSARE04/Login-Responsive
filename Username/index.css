@@ -1,0 +1,120 @@
+body {
+    font-family: Nunito;
+    /* font-size: 20px; */
+}
+
+.username {
+    background-image: url('./public/utilihivevsmdmsocialshare-4@2x.png');
+    background-position: 10% 50%;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.username-child {
+    width: 60%;
+    color: var(--color-white);
+    border-radius: var(--br-21xl);
+    background-color: var(--color-gray);
+    backdrop-filter: blur(50px);
+    border: 2px solid var(--color-white);
+    /* margin: 0 100px; */
+    /* position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-44%);
+    transform: translateY(-44%); */
+    padding: 60px 60px 40px 60px;
+    margin-top: 60px;
+}
+
+.logo-1-icon1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: -80px;
+    right: -20px;
+}
+
+.activate-your-account {
+    font-size: 28px;
+}
+
+.group-item,
+.group-child1,
+.group-inner {
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-silver);
+    box-sizing: border-box;
+    /* width: 500px;
+    height: 50px; */
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.clarityeye-hide-div {
+    position: relative;
+}
+
+.clarityeye-hide-line-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.confirm-password1 {
+    position: absolute;
+    right: 37px;
+    top: 8px;
+    color: black;
+}
+
+.username1,
+.password,
+.confirm-password {
+    margin-top: 15px;
+}
+
+
+.group-child {
+    cursor: pointer;
+    width: 100%;
+    margin: 20px 0;
+    padding: 11px 20px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-slateblue);
+    color: var(--color-white);
+}
+
+.username-holder {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media only screen and (max-width:992px) {
+    body {
+        font-style: 14px;
+        overflow: hidden;
+    }
+
+    .username-holder {
+        width: 100%;
+    }
+
+    .username-child {
+        width: 80%;
+        margin: 5px;
+    }
+
+    .logo-1-icon1 {
+        top: -100px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
